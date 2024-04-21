@@ -62,9 +62,7 @@ class App(ctk.CTk):
         
         self.text_box = ctk.CTkTextbox(text_box_frame, font=("Arial", 12), border_width=5,
                                        border_color=CLASSIC_T_COLORS)
-        
-        self.text_box.tag_add("bold", 3, 5)
-        self.text_box.tag_config("bold", )
+
         
         menu_bar_frame.pack(fill="x", side="top", pady=5)
         self.text_box.pack(expand=True, fill="both", pady=5)
